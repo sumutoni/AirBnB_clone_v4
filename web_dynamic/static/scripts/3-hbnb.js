@@ -52,7 +52,7 @@ $(document).ready(() => {
         }
         const description = '<div class="description">' + data[i].description + '</div>';
         const article = '<article>' + title_box + information + description + '</article>';
-        $('section.places').append(article);
+        $('section.places').html(article);
       }
     }
   });
